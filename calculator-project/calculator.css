@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color:#D2D6D9;
+    padding: 15px 25% 15px 25%;
+    margin: 30px 0 50px 7%;
+
+}
+.calc-header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 45px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    /* width: 90px; */
+    /* height: 60px; */
+    /* padding: 20px 30px 20px 25px; */
+}
+.text-header {
+    color: #fff;
+    font-size: x-large;
+    font-weight: 500px;
+    font-family: Charis SIL;
+}
+
+.empty-box {
+    background-color: #ff4500;
+    width: 30px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid #ff4500;
+    padding: 15px 65px 15px 65px;
+}
+
+.calc-bkground {
+background-color: #333333;
+width: 500px;
+border-radius: 0 0 50% 50% / 50px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+
+}
+
+.grid-container1 {
+display: grid;
+grid-template-columns: 90px 90px 90px 90px;
+padding-left: 50px;
+padding-right: 20px;
+padding-top: 25px;
+padding-bottom: 25px;
+gap: 15px;
+}
+
+.grid-item1 {
+    grid-column: 1 / span 4;
+    line-height: 5px;
+    height: 5px;
+    background-color: #7F7F7F;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    padding: 40px 40px;
+    text-align-last: right;
+    
+}
+
+.grid-container2 {
+display: grid;
+grid-template-columns: 90px 90px 90px 90px;
+grid-template-rows: 60px 60px 60px 60px 60px 60px;
+padding-left: 50px;
+padding-right: 25px;
+gap: 15px;
+
+}
+
+.grid-item2 {
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #333333;
+    color: black;
+    width: 90px;
+    height: 60px;
+    font-size: x-large;
+    font-weight: 30px;
+    border-radius: 18px;
+    font-family: Noto Sans TC;
+    /* padding-top: 20px; */
+}
+
+.grid-item2:hover {
+    background-color: #0000;
+    color: #ffff;
+    box-shadow: 0 0 10px 2px rgba(240, 240, 240, 0.5);
+}
+
+.grid-item3:hover {
+    background-color: #0000;
+    color: #ffff;
+    box-shadow: 0 0 10px 2px rgba(240, 240, 240, 0.5);
+}
+
+.grid-item3 {
+    background-color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    border: 1px solid #333333;
+    color: black;
+    font-size: xx-large;
+    font-family: Noto Sans TC;
+    font-weight: 30px;
+    border-radius: 18px;
+    grid-column: 4;
+    grid-row: 4 / span 2;
+}

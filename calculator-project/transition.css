@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.transition {
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    position: relative;
+}
+
+.graphics1 {
+    width: 50vw;
+    height: 50vh;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    transition: opacity 2s ease;
+}
+
+.graphics2 {
+    width: 50vw;
+    height: 50vh;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    transition: opacity 2s ease;
+}
+
+.graphics1:hover {
+    opacity: 1;
+}
+
+.graphics2:hover {
+    opacity: 1;
+}
+
+.graphics3 {
+    width: 50vw;
+    height: 50vh;
+}
